@@ -1,0 +1,138 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a simple card component with a title, description, and a button
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - paragraph [ref=e73]: This is a static response. You can place an Anthropic API key in the .env file to use the Anthropic API for component generation. Let me create an App.jsx file to display the component.
+              - generic [ref=e76]: str_replace_editor
+              - separator [ref=e77]
+              - paragraph [ref=e79]: I'll create a Card component for you.
+              - generic [ref=e82]: str_replace_editor
+              - separator [ref=e83]
+              - paragraph [ref=e85]: Now let me enhance the component with better styling.
+              - generic [ref=e88]: str_replace_editor
+              - separator [ref=e89]
+              - generic [ref=e90]:
+                - paragraph [ref=e91]: "Perfect! I've created:"
+                - list [ref=e92]:
+                  - listitem [ref=e93]:
+                    - strong [ref=e94]: Card.jsx
+                    - text: "- A fully-featured card component"
+                  - listitem [ref=e100]:
+                    - strong [ref=e101]: App.jsx
+                    - text: "- The main app file that displays the component"
+                - paragraph [ref=e102]: The component is now ready to use. You can see the preview on the right side of the screen.
+          - generic [ref=e356]:
+            - generic [ref=e359]: Create a contact form with name, email, and message fields
+            - img [ref=e362]
+          - generic [ref=e365]:
+            - img [ref=e368]
+            - generic [ref=e374]:
+              - paragraph [ref=e375]: "Perfect! I've created:"
+              - list [ref=e376]:
+                - listitem [ref=e377]:
+                  - strong [ref=e378]: ContactForm.jsx
+                  - text: "- A fully-featured form component"
+                - listitem [ref=e379]:
+                  - strong [ref=e380]: App.jsx
+                  - text: "- The main app file that displays the component"
+              - paragraph [ref=e381]: The component is now ready to use. You can see the preview on the right side of the screen.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [ref=e32]
+          - tab "Code" [active] [selected] [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - generic [ref=e386]:
+        - generic [ref=e392]:
+          - generic [ref=e393]:
+            - generic [ref=e394] [cursor=pointer]:
+              - img [ref=e395]
+              - img [ref=e397]
+              - generic [ref=e399]: components
+            - generic [ref=e402] [cursor=pointer]:
+              - img [ref=e403]
+              - generic [ref=e408]: Card.jsx
+          - generic [ref=e410] [cursor=pointer]:
+            - img [ref=e411]
+            - generic [ref=e416]: App.jsx
+        - separator [ref=e417]
+        - code [ref=e422]:
+          - generic [ref=e423]:
+            - generic [ref=e425]:
+              - generic [ref=e428]: "1"
+              - generic [ref=e430]: "2"
+              - generic [ref=e431]:
+                - generic [ref=e432] [cursor=pointer]: 
+                - generic [ref=e433]: "3"
+              - generic [ref=e434]:
+                - generic [ref=e435] [cursor=pointer]: 
+                - generic [ref=e436]: "4"
+              - generic [ref=e437]:
+                - generic [ref=e438] [cursor=pointer]: 
+                - generic [ref=e439]: "5"
+              - generic [ref=e441]:
+                - generic [ref=e442] [cursor=pointer]: 
+                - generic [ref=e443]: "6"
+              - generic [ref=e444]:
+                - generic [ref=e445] [cursor=pointer]: 
+                - generic [ref=e446]: "7"
+              - generic [ref=e448]: "8"
+              - generic [ref=e450]: "9"
+              - generic [ref=e453]:
+                - generic [ref=e454] [cursor=pointer]: 
+                - generic [ref=e455]: "10"
+              - generic [ref=e456]:
+                - generic [ref=e457] [cursor=pointer]: 
+                - generic [ref=e458]: "11"
+              - generic [ref=e462]: "12"
+              - generic [ref=e464]: "13"
+              - generic [ref=e466]: "14"
+              - generic [ref=e468]: "15"
+              - generic [ref=e470]: "16"
+              - generic [ref=e472]: "17"
+              - generic [ref=e474]: "18"
+              - generic [ref=e476]: "19"
+            - generic [ref=e586]:
+              - generic [ref=e588]: import Card from '@/components/Card';
+              - generic [ref=e591]: "export default function App() {"
+              - generic [ref=e593]: return (
+              - generic [ref=e595]: <div className="min-h-screen bg-gray-100 flex
+              - generic [ref=e597]: items-center justify-center p-8">
+              - generic [ref=e599]: <div className="w-full max-w-md">
+              - generic [ref=e601]: <Card
+              - generic [ref=e603]: title="Amazing Product"
+              - generic [ref=e605]: description="This is a fantastic product
+              - generic [ref=e607]: that will change your life. Experience the
+              - generic [ref=e609]: difference today!"
+              - generic [ref=e611]: "actions={"
+              - generic [ref=e613]: <button className="bg-blue-500 text-white
+              - generic [ref=e615]: px-4 py-2 rounded hover:bg-blue-600
+              - generic [ref=e617]: transition-colors">
+              - generic [ref=e619]: Learn More
+              - generic [ref=e621]: </button>
+              - generic [ref=e623]: "}"
+              - generic [ref=e625]: />
+              - generic [ref=e627]: </div>
+              - generic [ref=e629]: </div>
+              - generic [ref=e631]: );
+              - generic [ref=e633]: "}"
+            - textbox "Editor content" [ref=e635]
+  - alert [ref=e47]
+  - generic [ref=e353]:
+    - alert
+    - alert
